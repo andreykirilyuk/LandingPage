@@ -163,7 +163,7 @@ button.sign-up {
     display: flex;
     gap: 50px;
     background-color: #3882F6;
-    padding: 50px;
+    padding: 40px;
     border-radius: 10px;
 }
 
@@ -176,7 +176,7 @@ button.sign-up {
 
 .call-subtext {
     font-size: 15px;
-    color:#e5e7ebbb;
+    color:#e5e7eb;
 }
 
 .four-container-right {
@@ -193,6 +193,12 @@ button.four-container-right {
 }
 
 .five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
     background-color: #1F2937;
+    font-size: 15px;
+    color:#f9faf8a9;
 }
 
