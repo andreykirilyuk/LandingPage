@@ -122,13 +122,21 @@ button.sign-up {
     background-color: #3882F6;
 }
 
+.two-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #1f293793;
+    font-style: italic;
+}
+
 .three {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 20px;
+    padding: 40px 40px 30px 40px;
 }
 
 .quote {
@@ -138,7 +146,7 @@ button.sign-up {
 }
 
 .quote-name {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     margin-top: 10px;
     margin-right: -700px;
