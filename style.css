@@ -1,19 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .one {
     background-color: #1F2937;
-}
-
-.two {
-    background-color: white;
-}
-
-.hero {
-    display: flex;
-    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 20px;
 }
 
 .header-top {
@@ -21,3 +15,138 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7ebbb;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f6ffff;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7ebbb;
+    margin-bottom: 18px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 10px;
+    width: 100px;
+  }
+
+button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+}
+
+.main-bunny {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+
+.two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.two-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 52px;
+}
+
+.two-pic {
+    border:5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: -700px;
+}
+
+.four {
+    display: flex;
+}
+
+.five {
+    background-color: #1F2937;
+}
+
