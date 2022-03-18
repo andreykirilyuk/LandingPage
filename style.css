@@ -82,6 +82,7 @@ button.sign-up {
 .main-bunny {
     border: 5px solid white;
     border-radius: 10px;
+    background-color: white;
 }
 
 
@@ -118,6 +119,7 @@ button.sign-up {
 .two-pic {
     border:5px solid #3882F6;
     border-radius: 10px;
+    background-color: #3882F6;
 }
 
 .three {
