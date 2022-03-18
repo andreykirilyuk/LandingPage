@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
