@@ -7,6 +7,10 @@ body {
     background-color: #1F2937;
 }
 
+.two {
+    background-color: white;
+}
+
 .hero {
     display: flex;
     align-items: center;
